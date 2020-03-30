@@ -4,9 +4,11 @@ import NavItem from "./NavItem/NavItem"
 const headerNav = ({ items }) => {
   return (
     <nav>
-      {items.map(({ title, url }) => {
-        return <NavItem key={title} title={title} url={url} />
-      })}
+      <ul>
+        {items.map(({ title, url }) => {
+          return <NavItem key={title} title={title} url={url} />
+        })}
+      </ul>
     </nav>
   )
 }
