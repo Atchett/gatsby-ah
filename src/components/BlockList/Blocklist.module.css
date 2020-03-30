@@ -1,0 +1,77 @@
+/* mobile */
+
+.gridContainer {
+  display: grid;
+  display: -ms-grid;
+  grid-gap: 10px;
+  grid-template-rows: 40px repeat(auto-fill, 85px) 85px;
+  grid-auto-rows: 85px;
+  grid-template-areas:
+    "a1 a1"
+    "c3 c3"
+    "c3 c3"
+    "b4 d5"
+    "b4 d6"
+    "c2 c2"
+    "c2 c2"
+    "a10 a10"
+    "c12 c12"
+    "c12 c12"
+    "d8 b9"
+    "d7 b9"
+    "c13 c13"
+    "c13 c13"
+    "c14 c14"
+    "c14 c14"
+    "b11 b16"
+    "b11 b16"
+    "c15 c15"
+    "c15 c15";
+  /* define IE 10+ specific grid properties */
+  -ms-grid-rows: 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px
+    85px 10px 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px 85px
+    10px 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px 85px 10px;
+}
+
+@media (min-width: 760px) {
+  .gridContainer {
+    grid-template-rows: 70px repeat(auto-fill, 140px) 140px;
+    grid-auto-rows: 140px;
+    grid-template-areas:
+      "a1 a1 b4"
+      "c3 c3 b4"
+      "c3 c3 d5"
+      "b9 c2 c2"
+      "b9 c2 c2"
+      "c12 c12 d6"
+      "c12 c12 d7"
+      "b11 c13 c13"
+      "b11 c13 c13"
+      "a10 a10 d8"
+      "b16 c14 c14"
+      "b16 c14 c14"
+      "c15 c15 b17"
+      "c15 c15 b17";
+    /* define IE 10+ specific grid properties */
+    -ms-grid-rows: 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px 140px
+      20px 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px
+      140px 20px 140px 20px;
+  }
+}
+
+@media (min-width: 1240px) {
+  .gridContainer {
+    grid-template-areas:
+      "a1 a1 c2 c2 b9"
+      "c3 c3 c2 c2 b9"
+      "c3 c3 b4 c12 c12"
+      "d5 d6 b4 c12 c12"
+      "c13 c13 c14 c14 b16"
+      "c13 c13 c14 c14 b16"
+      "b11 c15 c15 d8 d7"
+      "b11 c15 c15 a10 a10";
+    /* define IE 10+ specific grid properties */
+    -ms-grid-rows: 112px 16px 112px 16px 112px 16px 112px 16px 112px 16px 112px
+      16px 112px 16px 112px 16px;
+  }
+}

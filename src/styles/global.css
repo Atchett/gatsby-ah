@@ -1,0 +1,71 @@
+/* Global Styles */
+/* 
+@font-face {
+  font-family: "LatoWeb";
+  font-display: auto;
+  src: url("./fonts/Lato-Regular.eot");
+  src: url("./fonts/Lato-Regular.woff2") format("woff2"),
+    url("./fonts/Lato-Regular.woff") format("woff"),
+    url("./fonts/Lato-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoWebLight";
+  font-display: auto;
+  src: url("./fonts/Lato-Light.eot");
+  src: url("./fonts/Lato-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Lato-Light.woff2") format("woff2"),
+    url("./fonts/Lato-Light.woff") format("woff"),
+    url("./fonts/Lato-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LatoWebBlack";
+  font-display: auto;
+  src: url("./fonts/Lato-Black.eot");
+  src: url("./fonts/Lato-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Lato-Black.woff2") format("woff2"),
+    url("./fonts/Lato-Black.woff") format("woff"),
+    url("./fonts/Lato-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+} */
+
+@font-face {
+  font-family: "FontAwesome";
+  font-display: auto;
+  src: url("./fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+      format("embedded-opentype"),
+    url("./fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+    url("./fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+    url("./fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+    url("./fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fix the height jump */
+html {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}

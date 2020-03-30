@@ -1,0 +1,338 @@
+/*
+    Homepage blocks
+*/
+.block {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center center;
+}
+
+/*
+    define the block properties for mobile
+    anything -ms- are IE 10+ specific
+*/
+.typeA {
+  -ms-grid-column-span: 3;
+}
+
+.typeB {
+  -ms-grid-row-span: 3;
+}
+
+.typeC {
+  -ms-grid-column-span: 3;
+  -ms-grid-row-span: 3;
+}
+
+.blockNum1 {
+  grid-area: a1;
+  -ms-grid-column: 1;
+  -ms-grid-row: 3;
+}
+
+.blockNum2 {
+  grid-area: c2;
+  -ms-grid-column: 1;
+  -ms-grid-row: 13;
+}
+
+.blockNum3 {
+  grid-area: c3;
+  -ms-grid-column: 1;
+  -ms-grid-row: 5;
+}
+
+.blockNum4 {
+  grid-area: b4;
+  -ms-grid-column: 1;
+  -ms-grid-row: 9;
+}
+
+.blockNum5 {
+  grid-area: d5;
+  -ms-grid-column: 3;
+  -ms-grid-row: 9;
+}
+
+.blockNum6 {
+  grid-area: d6;
+  -ms-grid-column: 3;
+  -ms-grid-row: 11;
+}
+
+.blockNum7 {
+  grid-area: d7;
+  -ms-grid-column: 1;
+  -ms-grid-row: 25;
+}
+
+.blockNum8 {
+  grid-area: d8;
+  -ms-grid-column: 1;
+  -ms-grid-row: 23;
+}
+
+.blockNum9 {
+  grid-area: b9;
+  -ms-grid-column: 3;
+  -ms-grid-row: 23;
+}
+
+.blockNum10 {
+  grid-area: a10;
+  -ms-grid-column: 1;
+  -ms-grid-row: 17;
+}
+
+.blockNum11 {
+  grid-area: b11;
+  -ms-grid-column: 1;
+  -ms-grid-row: 35;
+}
+
+.blockNum12 {
+  grid-area: c12;
+  -ms-grid-column: 1;
+  -ms-grid-row: 19;
+}
+
+.blockNum13 {
+  grid-area: c13;
+  -ms-grid-column: 1;
+  -ms-grid-row: 27;
+}
+
+.blockNum14 {
+  grid-area: c14;
+  -ms-grid-column: 1;
+  -ms-grid-row: 31;
+}
+
+.blockNum15 {
+  grid-area: c15;
+  -ms-grid-column: 1;
+  -ms-grid-row: 39;
+}
+
+.blockNum16 {
+  grid-area: b16;
+  -ms-grid-column: 3;
+  -ms-grid-row: 35;
+}
+
+.blockNum17 {
+  display: none;
+  grid-area: b17;
+}
+
+@media (min-width: 760px) {
+  /* 
+		define IE 10+ specific grid properties 
+		non IE (grid compatible) are using the grid areas
+	*/
+
+  .blockNum1 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+  }
+
+  .blockNum2 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 9;
+  }
+
+  .blockNum3 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 5;
+  }
+
+  .blockNum4 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 3;
+  }
+
+  .blockNum5 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 7;
+  }
+
+  .blockNum6 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 13;
+  }
+
+  .blockNum7 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 15;
+  }
+
+  .blockNum8 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 21;
+  }
+
+  .blockNum9 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 9;
+  }
+
+  .blockNum10 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 21;
+  }
+
+  .blockNum11 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 17;
+  }
+
+  .blockNum12 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 13;
+  }
+
+  .blockNum13 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 17;
+  }
+
+  .blockNum14 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 23;
+  }
+
+  .blockNum15 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 27;
+  }
+
+  .blockNum16 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 23;
+  }
+
+  .blockNum17 {
+    display: block;
+    -ms-grid-column: 5;
+    -ms-grid-row: 27;
+  }
+}
+
+@media (min-width: 1240px) {
+  /* 
+		define IE 10+ specific grid properties 
+		non IE (grid compatible) are using the grid areas
+	*/
+  .blockNum1 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 3;
+  }
+
+  .blockNum2 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 3;
+  }
+
+  .blockNum3 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 5;
+  }
+
+  .blockNum4 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 7;
+  }
+
+  .blockNum5 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 9;
+  }
+
+  .blockNum6 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 9;
+  }
+
+  .blockNum7 {
+    -ms-grid-column: 9;
+    -ms-grid-row: 15;
+  }
+
+  .blockNum8 {
+    -ms-grid-column: 7;
+    -ms-grid-row: 15;
+  }
+
+  .blockNum9 {
+    -ms-grid-column: 9;
+    -ms-grid-row: 3;
+  }
+
+  .blockNum10 {
+    -ms-grid-column: 7;
+    -ms-grid-row: 17;
+  }
+
+  .blockNum11 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 15;
+  }
+
+  .blockNum12 {
+    -ms-grid-column: 7;
+    -ms-grid-row: 7;
+  }
+
+  .blockNum13 {
+    -ms-grid-column: 1;
+    -ms-grid-row: 11;
+  }
+
+  .blockNum14 {
+    -ms-grid-column: 5;
+    -ms-grid-row: 11;
+  }
+
+  .blockNum15 {
+    -ms-grid-column: 3;
+    -ms-grid-row: 15;
+  }
+
+  .blockNum16 {
+    -ms-grid-column: 9;
+    -ms-grid-row: 11;
+  }
+
+  .blockNum17 {
+    display: none;
+  }
+}
+
+.orange {
+  background-color: #f28b00;
+}
+
+.blue {
+  background-color: #6a8aaa;
+}
+
+.green {
+  background-color: #afb744;
+}
+
+.teal {
+  background-color: #46a8a8;
+}
+
+.maroon {
+  background-color: #8a5668;
+}
+
+.darkGrey {
+  background-color: #66665d;
+}
+
+.white {
+  background-color: #fff;
+}
