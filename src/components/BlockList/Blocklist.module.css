@@ -36,6 +36,7 @@
 
 @media (min-width: 760px) {
   .gridContainer {
+    grid-gap: 16px;
     grid-template-columns: repeat(3, 220px);
     grid-template-rows: repeat(auto-fill, 140px);
     grid-auto-rows: 140px;
@@ -55,9 +56,9 @@
       "c15 c15 b17"
       "c15 c15 b17";
     /* define IE 10+ specific grid properties */
-    -ms-grid-rows: 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px 140px
-      20px 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px 140px 20px
-      140px 20px 140px 20px;
+    -ms-grid-rows: 140px 16px 140px 16px 140px 16px 140px 16px 140px 16px 140px
+      16px 140px 16px 140px 16px 140px 16px 140px 16px 140px 16px 140px 16px
+      140px 16px 140px 16px;
   }
 }
 
