@@ -4,7 +4,8 @@
   display: grid;
   display: -ms-grid;
   grid-gap: 10px;
-  grid-template-rows: 40px repeat(auto-fill, 85px) 85px;
+  grid-template-columns: repeat(2, 145px);
+  grid-template-rows: repeat(auto-fill, 85px);
   grid-auto-rows: 85px;
   grid-template-areas:
     "a1 a1"
@@ -35,7 +36,8 @@
 
 @media (min-width: 760px) {
   .gridContainer {
-    grid-template-rows: 70px repeat(auto-fill, 140px) 140px;
+    grid-template-columns: repeat(3, 220px);
+    grid-template-rows: repeat(auto-fill, 140px);
     grid-auto-rows: 140px;
     grid-template-areas:
       "a1 a1 b4"
@@ -61,6 +63,7 @@
 
 @media (min-width: 1240px) {
   .gridContainer {
+    grid-template-columns: repeat(5, 176px);
     grid-template-areas:
       "a1 a1 c2 c2 b9"
       "c3 c3 c2 c2 b9"

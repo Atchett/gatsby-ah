@@ -19,11 +19,14 @@ export const blockData = graphql`
       edges {
         node {
           frontmatter {
-            background_image
-            block_type
-            description
             number
-            title
+            block_type
+            header
+            description
+            sub_desc
+            footer
+            background_image
+            link
             color
           }
         }

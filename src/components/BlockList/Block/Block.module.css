@@ -2,10 +2,8 @@
     Homepage blocks
 */
 .block {
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-position: center center;
+  position: relative;
+  overflow: hidden;
 }
 
 /*
